@@ -111,7 +111,7 @@ footer {
     text-align: center; /* Alinha o texto ao centro */
     padding: 0; /* Espaçamento interno */
     width: 100%; /* Largura total da página */
-    position: absolute; /* Posiciona o rodapé */
+    position: relative; /* Posiciona o rodapé */
     bottom: 0; /* Alinha ao fundo da página */
     font-size: 1rem; /* Tamanho da fonte */
 }
@@ -121,6 +121,10 @@ img {
     height: auto; /* Mantém a proporção da imagem */
     border-radius: 30px;
     padding: 1rem;
+}
+header {
+    display: flex;
+    justify-content: flex-start;
 }
 
 @media (max-width: 768px) {
