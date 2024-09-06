@@ -122,10 +122,6 @@ img {
     border-radius: 30px;
     padding: 1rem;
 }
-header {
-    display: flex;
-    justify-content: flex-start;
-}
 
 @media (max-width: 768px) {
     h1 {
