@@ -85,6 +85,7 @@ section button:hover {
 .item-resultado h2 {
     font-size: 1.5rem; /* Tamanho da fonte */
     color: #222831; /* Cor do texto */
+    margin: 0px;
 }
 
 /* Estiliza os links dentro dos itens de resultado */
